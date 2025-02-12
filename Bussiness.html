@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>PayTrippa</title>
+    <title>Kavoo Bussiness</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.jpeg" rel="icon" />
+    <link href="assets/img/favicon.png" rel="icon" type="image/png" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
@@ -41,42 +41,43 @@
 
   <body class="index-page">
     <header id="header" class="header d-flex align-items-center sticky-top">
-      <div
-        class="container-fluid container-xl position-relative d-flex align-items-center"
-      >
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <!-- Logo -->
         <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1 class="sitename">PayTrippa</h1>
+          <!-- <h1 class="sitename">Kavoo</h1> -->
+          <img src="assets/img/logo.png" alt="">
         </a>
-
+    
+        <!-- Navigation Menu -->
         <nav id="navmenu" class="navmenu">
-          <ul>
+          <ul class="d-flex align-items-center">
             <li>
-              <a href="./index.html" class="bi bi-person-circle">Users</a>
+              <a href="./index _fr.html" class="active bi bi-person-circle">Users</a>
             </li>
             <li>
-              <a href="#bussiness" class="active bi bi-briefcase"
-                >Businesses
-              </a>
+              <a href="#hero" class="active bi bi-briefcase">Bussiness</a>
             </li>
-
             <li>
-              <a href="#contact" class="bi bi-geo-alt-fill">Contact Us</a>
+              <a href="#contact" class="active bi bi-geo-alt-fill">Contact Us</a>
+            </li>
+            <li>
+              <input type="checkbox" id="language-toggle">
+              <label id="button" for="language-toggle">
+                <div id="knobEN"><a href="./Bussiness_fr.html"></div>
+                <div id="language-text">EN</div></a>
+              </label>
             </li>
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <a
-          class="btn-getstarted bi bi-box-arrow-in-right"
-          href="index.html#about"
-        >
-          Partner Login</a
-        >
+    
+        <!-- Mobile Navigation Toggle -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list" hidden></i>
+    
+        <!-- Button -->
+        <a class="btn-getstartedfr bi bi-box-arrow-in-right" href="https://partner.paytrippa.com/signin">Partner Login</a>
       </div>
     </header>
-
+    
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section">
@@ -88,24 +89,42 @@
               data-aos-delay="100"
             >
               <img
-                src="assets/img/illustration.png"
+                src="assets/img/Business-English.png"
                 class="img-fluid animated"
                 alt=""
               />
             </div>
             <div
-              class="col-lg-6 d-flex flex-column justify-content-center text-center text-md-start"
+              class="col-lg-6 d-flex flex-column justify-content-center text-start text-md-start"
               data-aos="fade-in"
             >
-              <h2>Reach Customers Like Never Before</h2>
-              <p>
-                PayTrippa helps businesses connect directly with their audience,
-                boost engagement, and gather actionable insights.
-              </p>
+              <h2>leverage AI to Reach Customers Like Never Before.</h2>
+              <div class="tick-list">
+                <div class="tick-item">
+                  <i class="tick bi bi-check"></i>
+                  <span>Businesses can deliver tailored messages, offers, and content that align with their audience's interests, boosting engagement and conversion rates.</span>
+                </div>
+                <div class="tick-item">
+                  <i class="tick bi bi-check"></i>
+                  <span>By leveraging customer-consented data and real-time insights, businesses can make informed decisions to enhance customer satisfaction and overall experience.</span>
+                </div>
+                <div class="tick-item">
+                  <i class="tick bi bi-check"></i>
+                  <span>Businesses can analyze trends and behaviors within their target audience, enabling them to adapt their products and marketing strategies to meet evolving customer demands swiftly.</span>
+                </div>
+                <div class="tick-item">
+                  <i class="tick bi bi-nothing"></i>
+                  <span><p>
+                    We invite you to begin your journey with Kavoo today. For more information or to get started, please reach out to us using the Contact Us form.
+                  </p></span>
+                </div>
+              </div>
+              
+              
               <div
                 class="d-flex mt-4 justify-content-center justify-content-md-start"
               >
-                <a href="#" class="download-btn"
+                <a href="https://partner.paytrippa.com/signin" class="download-btn"
                   ><i class="bi bi-person-arms-up"></i>
                   <span>Partner with Us</span></a
                 >
@@ -173,8 +192,7 @@
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
                       <span
-                        >PayTrippa helped me turn my downtime into real
-                        cash!</span
+                        >Kavoo helped me turn my downtime into real cash!</span
                       >
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
@@ -223,12 +241,12 @@
         <div class="container">
           <div class="row gy-4">
             <div
-              class="col-lg-5 order-lg-last hero-img"
+              class="col-lg-4 order-lg-last hero-img"
               data-aos="zoom-out"
               data-aos-delay="100"
             >
               <img
-                src="assets/img/people2.png"
+                src="assets/img/Kavoo Download.png"
                 class="img-fluid animated people"
                 alt=""
               />
@@ -237,7 +255,9 @@
               class="col-lg-6 d-flex flex-column justify-content-center text-center text-md-start"
               data-aos="fade-in"
             >
-              <h2>Download the App and Start Engaging or Earning Today</h2>
+              <h2>
+                Download the Kavoo App and Start Engaging and Earning Today.
+              </h2>
 
               <div
                 class="d-flex mt-4 justify-content-center justify-content-md-start gap-3"
@@ -272,117 +292,6 @@
       <!-- /Hero Section -->
 
       <!-- Faq Section -->
-      <section id="faq" class="faq section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="faq-container">
-                <div
-                  class="faq-item faq-active"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                  <div class="faq-content">
-                    <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
-                      id volutpat lacus laoreet non curabitur gravida. Venenatis
-                      lectus magna fringilla urna porttitor rhoncus dolor purus
-                      non.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a
-                    pellentesque?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    Dolor sit amet consectetur adipiscing elit pellentesque?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                      sagittis orci. Faucibus pulvinar elementum integer enim.
-                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                      tellus pellentesque eu tincidunt. Lectus urna duis
-                      convallis convallis tellus. Urna molestie at elementum eu
-                      facilisis sed odio morbi quis
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    Tempus quam pellentesque nec nam aliquam sem et tortor
-                    consequat?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Molestie a iaculis at erat pellentesque adipiscing
-                      commodo. Dignissim suspendisse in est ante in. Nunc vel
-                      risus commodo viverra maecenas accumsan. Sit amet nisl
-                      suscipit adipiscing bibendum est. Purus gravida quis
-                      blandit turpis cursus in
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <!-- /Faq Section -->
 
       <!-- Contact Section -->
@@ -513,24 +422,32 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="d-flex align-items-center">
-              <span class="sitename">PayTrippa</span>
+              <span class="sitename">Kavoo</span>
             </a>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Users</a></li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Partners with Us</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Contact us</a>
+                <a href="./index.html">Users</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Privacy and Terms of service</a>
+                <a href="https://partner.paytrippa.com/signin">Partners with Us</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#contact">Contact us</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="./privacy.html">Privacy</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="./Terms and Conditions.html">Terms of service</a>
               </li>
             </ul>
           </div>
@@ -551,7 +468,7 @@
       <div class="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>
-          <strong class="px-1 sitename">PayTrippa</strong>
+          <strong class="px-1 sitename">Kavoo</strong>
           <span>All Rights Reserved</span>
         </p>
       </div>
